@@ -1,14 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { getResult } from './DayTwo';
+import React from "react";
+import "./App.css";
+import { getResult } from "./DayFour";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-  {getResult()}
-      </header>
+      <header className="App-header">{getResult()}</header>
     </div>
   );
 }
